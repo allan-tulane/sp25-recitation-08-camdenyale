@@ -20,3 +20,8 @@ The span is O(log V * D)
 
 - **2b)**
 
+graph = get_sample_graph()
+parents = bfs_path(graph, 's')
+paths = get_path(parents, 'd')
+print(paths)
+Output: sbc
